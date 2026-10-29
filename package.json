@@ -1,0 +1,14 @@
+{
+  "name": "arena-diaz",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Partidas pagas e comunidade — By Kaio",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "register": "node --env-file=.env src/register.js",
+    "test": "node --test"
+  },
+  "dependencies": { "discord.js": "14.22.1" }
+}
